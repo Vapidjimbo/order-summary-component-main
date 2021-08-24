@@ -1,0 +1,9 @@
+@media screen and (min-width: 1400px) {
+    body {
+        background-image: url("/images/pattern-background-desktop.svg");
+    }
+    .card-container {
+        width: 19.5%;
+        margin: 6em auto;
+    }
+}

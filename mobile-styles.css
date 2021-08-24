@@ -1,0 +1,112 @@
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: hsl(225, 100%, 98%);
+  background-image: url("/images/pattern-background-mobile.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Red-Hat-Display, Arial, Helvetica, sans-serif;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  border-radius: 25px;
+  background-color: white;
+  width: 90%;
+  margin: 1.5em;
+}
+
+.card-content {
+  padding: 1.5em;
+}
+
+.card-hero img {
+  border-top-right-radius: 25px;
+  border-top-left-radius: 25px;
+  max-width: 100%;
+  min-width: 100%;
+  height: auto;
+}
+
+.card-title {
+  font-weight: 900;
+}
+
+.card-message {
+  font-weight: 500;
+  color: rgba(77, 76, 76, 0.747);
+  line-height: 2rem;
+  text-align: center;
+}
+
+.card-figure {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 15px;
+}
+
+.card-figure > * {
+  flex-grow: 1;
+  margin-right: 0.5em;
+}
+
+.card-figure img {
+  flex-grow: 2;
+  border-radius: 100px;
+  height: 45px;
+  width: 10px;
+  margin-left: 0.5em;
+}
+
+.card-figure-focus p {
+  text-align: center;
+}
+
+.card-figure-text {
+  font-weight: 500;
+  color: rgba(77, 76, 76, 0.747);
+}
+
+.card-figure a {
+  font-weight: 700;
+}
+
+.card-figure a:hover {
+  color: purple;
+}
+
+.card-cta {
+  margin: 2em 0;
+  background-color: hsl(245, 75%, 52%);
+  color: white;
+  padding: 1em 2em;
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  font-weight: 900;
+  box-shadow: -1px 63px 16px -12px rgba(56, 41, 224, 0.42);
+  -webkit-box-shadow: 0px 23px 16px -8px rgba(56, 41, 224, 0.42);
+  -moz-box-shadow: -1px 63px 16px -12px rgba(56, 41, 224, 0.42);
+}
+
+.card-cta:hover {
+  background-color: hsl(245, 64%, 61%);
+  cursor: pointer;
+}
+
+.card-cancle-btn {
+  margin: 0 5em;
+}
+
+.card-cancle-btn a {
+  font-weight: 700;
+  color: rgba(77, 76, 76, 0.747);
+}
+
+.card-cancle-btn a:hover {
+  color: purple;
+}
